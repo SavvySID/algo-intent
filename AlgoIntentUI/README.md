@@ -60,24 +60,6 @@ This repository contains the **user interface code for Algo Intent** - a modern,
 4. **Open your browser**
    Navigate to `http://localhost:8080` (or the port shown in your terminal)
 
-## 📁 Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-│   ├── ui/             # shadcn/ui components
-│   ├── ChatInput.tsx   # Chat input interface
-│   ├── ChatMessage.tsx # Message display component
-│   ├── OrbVisual.tsx   # Animated orb visualization
-│   └── QuickActions.tsx # Quick action buttons
-├── pages/              # Page components
-│   ├── Index.tsx       # Main application page
-│   └── NotFound.tsx    # 404 page
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions
-└── main.tsx           # Application entry point
-```
-
 ## 🎨 Design System
 
 The application uses a carefully crafted design system with:
@@ -95,15 +77,6 @@ The application uses a carefully crafted design system with:
 - `pnpm preview` - Preview production build
 - `pnpm lint` - Run ESLint
 
-## 🌐 Deployment
-
-You can deploy this project using any static hosting service:
-
-- **Vercel**: Connect your GitHub repository for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder after building
-- **GitHub Pages**: Use GitHub Actions for automated deployment
-- **AWS S3**: Upload the built files to an S3 bucket
-
 ### Build for Production
 
 ```bash
@@ -120,27 +93,5 @@ This UI is designed to integrate with:
 - **Algorand SDK**: For blockchain interactions
 - **AI Backend Services**: For natural language processing
 - **Swap Widget APIs**: For token exchange functionality
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions:
-
-- Create an issue in this repository
-- Contact the development team
-- Check the documentation for common solutions
-
----
 
 **Algo Intent** - Making Algorand transactions as simple as describing what you want to do.
